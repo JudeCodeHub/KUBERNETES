@@ -1,0 +1,27 @@
+{
+  "name": "kubernetes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JudeCodeHub/kubernetes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type":"module",
+  "bugs": {
+    "url": "https://github.com/JudeCodeHub/kubernetes/issues"
+  },
+  "homepage": "https://github.com/JudeCodeHub/kubernetes#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
